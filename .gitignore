@@ -27,6 +27,11 @@ data/raw/
 data/processed/
 data/final/
 
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/final/.gitkeep
+
 # Ignore CSV files
 *.csv
 
