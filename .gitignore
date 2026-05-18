@@ -22,9 +22,16 @@ venv/
 # Logs
 *.log
 
-# Large/raw datasets
+# Ignore datasets
 data/raw/
-datasets/raw/
+data/processed/
+data/final/
+
+# Ignore CSV files
+*.csv
+
+# Ignore parquet files
+*.parquet
 
 # Temporary files
 tmp/
