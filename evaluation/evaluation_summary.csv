@@ -1,0 +1,11 @@
+Name,Type,Sentiment Tone,Key Themes,Drug Comparison
+Levonorgestrel,Drug,3,3,3
+Etonogestrel,Drug,3,3,3
+Ethinyl est / norethindrone,Drug,3,2,3
+Nexplanon,Drug,3,3,3
+Ethinyl est / norgestimate,Drug,3,2,3
+Birth Control,Condition,3,2,3
+Depression,Condition,3,3,2
+Pain,Condition,3,2,3
+Anxiety,Condition,3,3,3
+Acne,Condition,3,2,3
