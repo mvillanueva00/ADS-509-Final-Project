@@ -48,4 +48,3 @@ data/processed/
 # Temporary files
 tmp/
 temp/
-pipeline_outputs/
