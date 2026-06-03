@@ -1,0 +1,9 @@
+metric,value
+total_rows,219206.0
+total_columns,13.0
+duplicate_rows,52.0
+unique_drugs,4211.0
+unique_conditions,2724.0
+average_rating,6.989183690227457
+median_rating,8.0
+average_review_length,85.33569792797643
