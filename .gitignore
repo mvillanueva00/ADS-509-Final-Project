@@ -8,6 +8,7 @@ __pycache__/
 # Secrets
 .env
 .env.*
+.gemini_key
 
 # Virtual environments
 venv/
@@ -22,18 +23,24 @@ venv/
 # Logs
 *.log
 
-# Ignore datasets
+# Ignore raw datasets — download from Kaggle directly
+drugsComTrain_raw.csv
+drugsComTest_raw.csv
+
+# Ignore large generated files — produced by pipeline at runtime
+cleaned_drug_reviews.csv
+
+# Ignore intermediate pipeline data folders
 data/raw/
 data/processed/
-data/final/
 
 # Keep folder structure
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !data/final/.gitkeep
 
-# Ignore CSV files
-*.csv
+# Ignore auto-generated patched notebooks — created by pipeline at runtime
+*_fixed.ipynb
 
 # Ignore parquet files
 *.parquet
@@ -41,3 +48,4 @@ data/final/
 # Temporary files
 tmp/
 temp/
+pipeline_outputs/
