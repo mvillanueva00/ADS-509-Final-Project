@@ -10,6 +10,14 @@ Pharmacists and healthcare researchers need to understand how patients actually 
 
 ---
 
+## Live Demo
+
+An interactive demo of the pipeline is available as a deployed Streamlit application. The app allows users to search by drug or condition, view AI-generated patient experience summaries, explore dataset visualizations, and download the full pipeline report.
+
+🔗 **[https://ads509-group1-final.streamlit.app](https://ads509-group1-final.streamlit.app)**
+
+---
+
 ## Dataset
 
 **UCI ML Drug Review Dataset (Drugs.com)**
@@ -83,6 +91,20 @@ The project is organized as five sequential notebooks:
     │   └── final/
     │       ├── ai_summaries.json
     │       └── drug_review_profile.csv
+    │
+    ├── streamlit/
+    │   ├── app.py
+    │   ├── .streamlit/
+    │   │   └── config.toml
+    │   ├── data/
+    │   │   └── final/
+    │   │       └── ai_summaries.json
+    │   ├── eda/
+    │   │   └── (EDA chart images)
+    │   └── evaluation/
+    │       ├── drug_review_insights_report.pdf
+    │       ├── fig16_ai_evaluation.png
+    │       └── fig17_ai_evaluation_table.png
     │
     ├── .gitignore
     ├── README.md
